@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+.dropdown-btn {
+    background-color: #fff;
+    border: 2px solid black;
+    color: black;
+    font-weight: bold;
+    border-radius: 0px;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.dropdown-menu {
+    padding: 0px;
+    margin: 10px;
+}
+
+.dropdown-btn:hover {
+    background-color: rgb(161, 45, 45);
+    border: 2px solid black;
+    color: white;
+    font-weight: bold;
+    border-radius: 0px;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.dropdown-btn::after {
+    background-color: rgb(161, 45, 45);
+    border: 2px solid black;
+    color: white;
+    font-weight: bold;
+    border-radius: 0px;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.dropdown-item {
+    background-color: #fff;
+    padding: 8px;
+    color: black;
+    border-radius: 0px;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.dropdown-item:hover {
+    background-color: #fff;
+    color: black;
+    font-weight: bold;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+#dropdown-split-basic {
+    background-color: black;
+    border: none;
+    border-radius: 0px;
+}

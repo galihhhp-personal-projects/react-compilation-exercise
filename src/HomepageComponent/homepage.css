@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+html {
+    height: 100%;
+}
+
+h1 {
+    font-family: 'Share Tech Mono', monospace;
+    color: black;
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+
+.container-fluid {
+    height: 55rem;
+    padding: 10%;
+}
+
+.home-wrapper {
+    height: 100%;
+    padding: 3%;
+    border: 4px solid black;
+    box-shadow: -12px 13px 0px 5px rgba(0, 0, 0, 1);
+}
