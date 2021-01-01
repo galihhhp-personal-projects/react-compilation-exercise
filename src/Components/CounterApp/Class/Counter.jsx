@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { Button, Container } from 'react-bootstrap';
-import './index.css';
+import { Container } from 'react-bootstrap';
+import './counter.css';
 
 export default class CounterComponent extends Component {
   constructor(props) {
@@ -33,15 +33,24 @@ export default class CounterComponent extends Component {
     });
   };
 
+  componentDidMount() {
+    document.title = 'Counter App';
+  }
+
   render() {
     return (
       <Container className='d-flex flex-column justify-content-center'>
-        <h1  className='text-center'>{this.state.count}</h1>
-
+        <h1 className='text-center'>{this.state.count}</h1>
         <input value={this.state.count} />
-        <Button onClick={this.handleIncrement}>+</Button>
-        <Button onClick={this.handleDecrement}>-</Button>
-        <Button onClick={this.handleResetCount}>Reset</Button>
+        <button className='btn' onClick={this.handleIncrement}>
+          +
+        </button>
+        <button className='btn' onClick={this.handleDecrement}>
+          -
+        </button>
+        <button className='btn' onClick={this.handleResetCount}>
+          Reset
+        </button>
       </Container>
     );
   }
