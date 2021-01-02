@@ -1,14 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import CounterComponent from './Components/CounterApp/Class';
-import App from './App';
+// import CounterComponent from './Components/CounterApp/Class/Counter';
+// import HomepageComponent from './HomepageComponent/Homepage';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
+import MainPage from './ProjectPages/Form/MainPage';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
     {/* <CounterComponent /> */}
+    {/* <HomepageComponent/> */}
+    <MainPage />
   </React.StrictMode>,
   document.getElementById('root')
 );

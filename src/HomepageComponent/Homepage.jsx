@@ -9,7 +9,7 @@ export default class HomepageComponent extends Component {
       <Fragment>
         <NavbarComponent />
         <Container fluid>
-          <div class='d-flex flex-column justify-content-center home-wrapper'>
+          <div className='d-flex flex-column justify-content-center home-wrapper'>
             <h1>2021</h1>
             <h1>
               Galihhhp's <br /> Personal Projects
