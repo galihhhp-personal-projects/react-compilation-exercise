@@ -20,26 +20,44 @@ export default class FormComponent extends Component {
     });
   };
 
-  handleSubmit = () => {
+  handleChange = (newValue) => {
+    this.props = {
+      title: newValue,
+      author: newValue,
+      publisher: newValue,
+    };
+  };
 
-  }
+  handleSubmit = () => {};
 
   render() {
     return (
       <Form>
         <Form.Group controlId='formTitle'>
           <Form.Label>Title</Form.Label>
-          <Form.Control type='text' placeholder='Enter title' onChange={this.handleInput} />
+          <Form.Control
+            type='text'
+            placeholder='Enter title'
+            onChange={this.handleInput}
+          />
         </Form.Group>
 
         <Form.Group controlId='formAuthor'>
           <Form.Label>Author</Form.Label>
-          <Form.Control type='text' placeholder='Enter author' onChange={this.handleInput} />
+          <Form.Control
+            type='text'
+            placeholder='Enter author'
+            onChange={this.handleInput}
+          />
         </Form.Group>
 
         <Form.Group controlId='formPublisher'>
           <Form.Label>Publisher</Form.Label>
-          <Form.Control type='text' placeholder='Enter publisher' onChange={this.handleInput} />
+          <Form.Control
+            type='text'
+            placeholder='Enter publisher'
+            onChange={this.handleInput}
+          />
         </Form.Group>
 
         <Button type='submit'>Submit</Button>
