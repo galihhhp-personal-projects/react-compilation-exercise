@@ -1,10 +1,16 @@
 .container-fluid {
-  background-image: url('./BG.png');
-  background-size: cover;
-  height: 893px;
-  background-color: #E2E2E2;
+    background-color: #e2e2e2;
+}
+
+.hero-wrapper {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-image: url('./BG.png');
+    background-color: #e2e2e2;
 }
 
 .med-nav-item:hover {
-  font-weight: bolder;
+    font-weight: bolder;
 }
