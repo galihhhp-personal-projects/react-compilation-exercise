@@ -5,7 +5,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // import HomepageComponent from './HomepageComponent/Homepage';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Skeleton from './VidTutorial/SkeletonScreen/Skeleton';
+import ContextApp from './ContextApp';
+// import Skeleton from './VidTutorial/SkeletonScreen/Skeleton';
 // import Meditation from './ProjectPages/Layout Sections/Hero/Meditation';
 // import MainPage from './ProjectPages/Form/MainPage';
 
@@ -16,7 +17,8 @@ ReactDOM.render(
         {/* <HomepageComponent/> */}
         {/* <MainPage /> */}
         {/* <Meditation /> */}
-        <Skeleton />
+        {/* <Skeleton /> */}
+        <ContextApp />
     </React.StrictMode>,
     document.getElementById('root')
 );
