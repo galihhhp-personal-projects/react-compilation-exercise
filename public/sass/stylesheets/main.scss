@@ -1,0 +1,31 @@
+// .main {
+//     background-color: burlywood;
+
+//     .main-heading {
+//         font-size: 3rem;
+//     }
+// }
+
+// .main,
+// footer {
+//     h1,
+//     p {
+//         background-color: burlywood;
+//     }
+// }
+
+// & menujukkan parent dari selector
+
+.main {
+    .container & {
+        color: coral;
+    }
+
+    & &-heading {
+        font-size: 2em;
+    }
+
+    &:hover {
+        color: burlywood;
+    }
+}
