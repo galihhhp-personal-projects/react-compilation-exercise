@@ -1,0 +1,63 @@
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.header ul li {
+  display: inline-block;
+}
+
+.header ul li {
+  background-color: burlywood;
+}
+
+.header ul li a {
+  color: aqua;
+}
+
+.footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer ul li {
+  display: inline-block;
+}
+
+.footer ul li {
+  background-color: red;
+}
+
+.footer ul li a {
+  color: aqua;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 600px;
+  height: 400px;
+  background-color: burlywood;
+}
+
+.container .box {
+  width: 60px;
+  height: 60px;
+  background-color: aqua;
+  text-align: center;
+  line-height: 60px;
+}
+/*# sourceMappingURL=main-mixin.css.map */

@@ -16,16 +16,40 @@
 
 // & menujukkan parent dari selector
 
-.main {
-    .container & {
-        color: coral;
-    }
+// .main {
+//     .container & {
+//         color: coral;
+//     }
 
-    & &-heading {
-        font-size: 2em;
-    }
+//     & &-heading {
+//         font-size: 2em;
+//     }
 
-    &:hover {
-        color: burlywood;
-    }
-}
+//     &:hover {
+//         color: burlywood;
+//     }
+// }
+
+// Variabel
+// $primary-color: burlywood;
+// $secondary-color: aqua;
+// $text-color: rgb(49, 97, 97);
+
+// body {
+//   background-color: $primary-color;
+// }
+
+// h1 {
+//   color: $text-color;
+// }
+
+//map
+// $alert: (
+//   'danger': red,
+//   'succes': green,
+//   'warning': orange,
+// );
+
+// h1 {
+//   color: map-get($alert, 'danger');
+// }
